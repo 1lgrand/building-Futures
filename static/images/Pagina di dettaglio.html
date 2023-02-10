@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/dettaglio.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!--
+        TODO:
+        Cambiare titolo finestra;
+
+    -->
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Pagina di dettaglio_files/dettaglio.css">
+    <link href="./Pagina di dettaglio_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Pagina di dettaglio_files/css2" rel="stylesheet">
+
+    <script src="./Pagina di dettaglio_files/mapbox-gl.js.download"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Pagina di dettaglio_files/css2(1)" rel="stylesheet">
+
+    
+
+    <title>Pagina di dettaglio</title>
+</head>
+<body>
+
+    <header id="headerMenu" class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <a href="http://127.0.0.1:5500/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+            <img src="./Pagina di dettaglio_files/puglia.png" alt="logoPuglia" class="logoPuglia">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+
+          <li>
+            <a href="http://127.0.0.1:5500/dettaglio.html#" class="nav-link px-2 link-secondary">Percorsi</a>
+        </li>
+
+          <li>
+            <a href="http://127.0.0.1:5500/dettaglio.html#" class="nav-link px-2 link-dark">Homepage</a>
+        </li>
+
+          <li>
+            <a href="http://127.0.0.1:5500/dettaglio.html#" class="nav-link px-2 link-dark">Collabora con noi </a>
+        </li>
+
+        </ul>
+  
+        <div class="col-md-3 text-end">
+        <!--  <button type="button" class="btn btn-outline-primary me-2">Login</button>
+          <button type="button" class="btn btn-primary">Sign-up</button>
+        --></div>
+      </header>
+
+
+      <!--Aggiungere nome del posto-->
+      <h1 id="titolo">TRULLI DI ALBEROBELLO</h1>
+
+      <img id="map" src="./Pagina di dettaglio_files/mappaExample.png" alt="">
+
+<!--      <div id="map">
+
+      </div>
+      <script src="./static/js/GPXParser.js"></script>
+    <script src="./static/js/rendermap.js"></script>
+      -->
+
+      <div id="container">
+
+        <div id="txtContainer">
+          <p class="text">I trulli sono testimonianze straordinarie di edilizia in pietra a secco a lastre dal tetto a forma conica o piramidale (il nome deriva dal greco τρούλος, ovvero “cupola”), una tecnica risalente all’epoca preistorica e in uso ancor oggi in Puglia. Sono diffusi in tutta la Valle d'Itria come ricoveri rurali per bestiame e attrezzi agricoli, ma la concentrazione più alta di trulli si trova ad Alberobello: nel centro storico di questa città se ne contano più di 1.500, quasi tutti in perfetto stato di conservazione. I trulli di Alberobello sono stati iscritti nel 1996 dall'UNESCO nella World Heritage List come notevole esempio di architettura spontanea inserito in un contesto urbano e paesaggistico di grande valore storico.</p>
+        </div>
+
+        <div class="card">
+          <div class="cardIntestazione">
+            <h1>Pin1</h1>
+            <img src="./Pagina di dettaglio_files/pin-svg.svg">
+            <img src="./Pagina di dettaglio_files/arrowPin.svg" alt="" srcset="">
+            <h1>Grand Hotel Olimpo</h1>
+          </div>
+        </div>
+
+      </div>
+
+
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

@@ -39,38 +39,14 @@
     justify-content: center;
 }
 
-.cards{
-    width: 766px;
-    height: 284px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+.card{
+    /*width: fit-content;
+    height: fit-content;*/
 }
 
 .cardIntestazione{
-    padding-left: 10px;
-    padding-left: 10px;
     display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-}
-
-#testoCard{
-    width: 428px;
-}
-
-.sottoIntestazione{
-    display: flex;
-    flex-direction: row;
-}
-
-.btn{
-    margin-bottom: 76px;
-    margin-top: 34px;
-    margin-right: 84px;
-    width: 222px;
-    height: 74px;
+    flex-direction: row;    
 }
 
 /*Id della mappa gps da aggiungere*/

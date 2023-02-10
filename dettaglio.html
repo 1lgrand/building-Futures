@@ -19,9 +19,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,400;8..144,700&display=swap" rel="stylesheet">
 
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,400;8..144,700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+    
+
     <title>Pagina di dettaglio</title>
 </head>
 <body>
@@ -58,11 +62,78 @@
       <!--Aggiungere nome del posto-->
       <h1 id="titolo">TRULLI DI ALBEROBELLO</h1>
 
-      <!--Aggiungere mappa-->
-      <img src="static/images/mappaExample.png" alt="map" id="map">
+      <img id="map" src="static/images/mappaExample.png" alt="">
 
-      
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum repudiandae optio maxime? Natus perspiciatis commodi cum dolorem. Numquam facilis deleniti praesentium voluptates voluptatibus. Molestias, consequuntur. Nam optio ipsa sapiente mollitia.</p>
+<!--      <div id="map">
+
+      </div>
+      <script src="./static/js/GPXParser.js"></script>
+    <script src="./static/js/rendermap.js"></script>
+      -->
+
+      <div id="container">
+
+        <div id="txtContainer">
+          <p class="text">I trulli sono testimonianze straordinarie di edilizia in pietra a secco a lastre dal tetto a forma conica o piramidale (il nome deriva dal greco τρούλος, ovvero “cupola”), una tecnica risalente all’epoca preistorica e in uso ancor oggi in Puglia. Sono diffusi in tutta la Valle d'Itria come ricoveri rurali per bestiame e attrezzi agricoli, ma la concentrazione più alta di trulli si trova ad Alberobello: nel centro storico di questa città se ne contano più di 1.500, quasi tutti in perfetto stato di conservazione. I trulli di Alberobello sono stati iscritti nel 1996 dall'UNESCO nella World Heritage List come notevole esempio di architettura spontanea inserito in un contesto urbano e paesaggistico di grande valore storico.</p>
+        </div>
+
+        <div style="background: rgba(165, 165, 165, 0.5);" class="cards">
+          <div  class="cardIntestazione">
+            <h1>Pin1</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Grand Hotel Olimpo</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p id="testoCard">Ti immaginiamo mentre pianifichi la tua prossima vacanza.  Stai scegliendo la meta,  cerchi un luogo che ti ispiri tranquillità ma che permetta anche ai tuoi bambini di divertirsi.</p>
+            <button class="btn" style="background-color: white; margin-left: 30px;" value="ciao">Ciao</button>    
+          </div>       
+        </div>
+
+        <div style="background: rgba(51, 101, 138, 0.5);" class="cards">
+          <div  class="cardIntestazione">
+            <h1>Pin2</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Grand Hotel Olimpo</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p id="testoCard">Ti immaginiamo mentre pianifichi la tua prossima vacanza.  Stai scegliendo la meta,  cerchi un luogo che ti ispiri tranquillità ma che permetta anche ai tuoi bambini di divertirsi.</p>
+            <button class="btn" style="background-color: white; margin-left: 30px;" value="ciao">Ciao</button>    
+          </div>       
+        </div>
+
+        <div style="background: rgba(51, 101, 138, 0.5);" class="cards">
+          <div  class="cardIntestazione">
+            <h1>Pin3</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Grand Hotel Olimpo</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p id="testoCard">Ti immaginiamo mentre pianifichi la tua prossima vacanza.  Stai scegliendo la meta,  cerchi un luogo che ti ispiri tranquillità ma che permetta anche ai tuoi bambini di divertirsi.</p>
+            <button class="btn" style="background-color: white; margin-left: 30px;" value="ciao">Ciao</button>    
+          </div>       
+        </div>
+
+        <div style="background: rgba(51, 101, 138, 0.5);" class="cards">
+          <div  class="cardIntestazione">
+            <h1>Pin4</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Grand Hotel Olimpo</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p id="testoCard">Ti immaginiamo mentre pianifichi la tua prossima vacanza.  Stai scegliendo la meta,  cerchi un luogo che ti ispiri tranquillità ma che permetta anche ai tuoi bambini di divertirsi.</p>
+            <button class="btn" style="background-color: white; margin-left: 30px;" value="ciao">Ciao</button>    
+          </div>       
+        </div>
+
+      </div>
 
 
     
