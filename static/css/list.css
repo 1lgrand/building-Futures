@@ -209,3 +209,31 @@ a{
     top: 97.94%;
     bottom: 0.43%;
 }
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 750px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 768px) {
+    .container{
+        max-width: 1024px;
+    }
+  } 
+  
+ @media only screen and (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+  }
