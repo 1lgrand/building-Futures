@@ -1,0 +1,37 @@
+*{
+    font-family: 'Roboto Serif', serif;
+}
+
+.logoPuglia{
+    width: 160px;
+    height: 70px;
+    text-align: center;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    font-size: 22px;
+    
+}
+
+#titolo{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+#map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    position: absolute;
+    width: 765px;
+    height: 236px;
+
+    /* TODO: Centrare Il testo*/
+    margin-left: auto;
+    margin-right: auto;
+}
