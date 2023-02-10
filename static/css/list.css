@@ -1,0 +1,211 @@
+*{
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.88px;
+    line-height: 26px;
+    color: #2F4858;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logoPuglia{
+    width: 160px;
+    height: 70px;
+    text-align: center;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    font-size: 22px;
+    
+}
+
+.container{
+    position: absolute;
+    width: 832px;
+    height: 884px;
+    right: 190px;
+}
+
+.cardImg{
+    width: 255px;
+    height: 244px;
+}
+
+
+.card1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    top: 2%;
+    bottom: 64%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    }
+
+.card2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    top: 36%;
+    bottom: 30%;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    }
+
+.card3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: absolute;
+    left: 3%;
+    right: 3%;
+    top: 69%;
+    bottom: -3%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    }
+
+.contentWrapper{
+    padding-left: 65px;
+    color: black;
+}
+
+
+
+#filterMenu{
+    background-color: #2F4858;
+    position: absolute;
+    width: 101px;
+    height: 923px;
+    left: 0px;
+    top: 101px;
+
+}
+
+#main{
+    padding-top: 100px;
+}
+
+#headerMenu{
+ position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    padding-top: 0;
+    background-color: #fff;
+}
+
+
+.buttonWrapper .vaiA{
+    background-color: #33658A;
+    border-radius: 20px;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    font-family: 'Roboto';
+    font-size: normal;
+    font-weight: 400;
+    position: absolute;
+    top: 183px; 
+    left: 574px;
+}
+
+.vector .vaiA{
+
+    position: absolute;
+    left: 99%;
+    right: 1%;
+    top: 79%;
+    bottom: 12%;
+    background: #FFFFFF;
+    transform: rotate(90deg);
+}
+
+
+
+.albero {
+    position: absolute;
+    left: 20.79%;
+    right: 19.8%;
+    top: 23.94%;
+    bottom: 69.56%;
+
+}
+
+.masseria{
+    position: absolute;
+    left: 20.79%;
+    right: 19.8%;
+    top: 32.61%;
+    bottom: 60.89%;
+}
+
+.barca{
+    position: absolute;
+    left: 20.79%;
+    right: 19.8%;
+    top: 41.28%;
+    bottom: 52.22%;
+}
+
+.bandiera{
+    position: absolute;
+    left: 20.79%;
+    right: 19.8%;
+    top: 50.05%;
+    bottom: 43.45%;
+}
+
+.spiaggia{
+    position: absolute;
+    left: 20.79%;
+    right: 19.8%;
+    top: 58.83%;
+    bottom: 34.67%;
+}
+
+.trullo{
+    position: absolute;
+    left: 20.79%;
+    right: 19.8%;
+    top: 67.5%;
+    bottom: 26%;
+}
+
+.Group{
+    position: absolute;
+    left: 0.99%;
+    right: 79.21%;
+    top: 97.94%;
+    bottom: 0.43%;
+}
+
+.instagram{
+    position: absolute;
+    left: 42.57%;
+    right: 42.57%;
+    top: 97.94%;
+    bottom: 0.43%;
+}
+
+.facebook{
+    position: absolute;
+    left: 80.2%;
+    right: 10.89%;
+    top: 97.94%;
+    bottom: 0.43%;
+}
