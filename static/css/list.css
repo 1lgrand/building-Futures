@@ -1,3 +1,12 @@
+*{
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.88px;
+    line-height: 26px;
+    color: #2F4858;
+}
+
 .logoPuglia{
     width: 160px;
     height: 70px;
@@ -72,7 +81,7 @@
 
     .buttonWrapper{
         padding-right: 10px;
-        padding-top: 100px;
+        margin-top: 90px;
     }
 
     .buttonWrapper .vaiA{
