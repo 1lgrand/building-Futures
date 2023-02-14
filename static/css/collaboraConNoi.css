@@ -1,0 +1,18 @@
+*{
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.88px;
+    line-height: 26px;
+    color: #181e22;
+}
+
+#main{
+    text-align: center;
+}
+
+.logoPanetti{
+    width: 160px;
+    height: 70px;
+    text-align: right;
+}

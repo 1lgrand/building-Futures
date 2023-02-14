@@ -92,11 +92,14 @@
     text-align: right;
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 740px) {
     body{
         width: 850px;
         margin-right: 50%;
         margin-left: 50%;
         display: block;
+    }
+    .text{
+        font-size: 15px;
     }
 }
