@@ -73,14 +73,15 @@
     height: 74px;
 }
 
+.logoPanetti{
+    width: 160px;
+    height: 70px;
+    text-align: right;
+}
 /*Id della mappa gps da aggiungere*/
 #map{
     width: 832px;
     height: 526px;
 }
 
-.logoPanetti{
-    width: 160px;
-    height: 70px;
-    text-align: right;
-}
+
