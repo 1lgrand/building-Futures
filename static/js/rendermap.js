@@ -54,7 +54,7 @@ function setupMap(position) {
 //Parse GPX to JSON
 const renderMap = (map) => {
   let gpx = new gpxParser();
-  fetch("./static/gpx/example.gpx")
+  fetch("./static/gpx/percorsoBari.gpx")
     .then((response) => response.text())
     .then((data) => gpx.parse(data))
     .then((g) => gpx.toGeoJSON())
@@ -87,6 +87,7 @@ const renderMap = (map) => {
             },
           });
 
+          /*
           //Add START/END markers on map
           new mapboxgl.Marker({ color: "red" })
             .setLngLat(coordinates[0])
@@ -96,6 +97,7 @@ const renderMap = (map) => {
             .setLngLat(coordinates[coordinates.length - 1])
             .addTo(map);
 
+          */
           //Add waypoints on map
           json.waypoints.forEach((waypoint) => {
             console.log(waypoint);
