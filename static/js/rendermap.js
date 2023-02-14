@@ -54,7 +54,7 @@ function setupMap(position) {
 //Parse GPX to JSON
 const renderMap = (map) => {
   let gpx = new gpxParser();
-  fetch("./static/gpx/example.gpx")
+  fetch("./static/gpx/percorsoBari.gpx")
     .then((response) => response.text())
     .then((data) => gpx.parse(data))
     .then((g) => gpx.toGeoJSON())
