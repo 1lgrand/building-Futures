@@ -87,6 +87,7 @@ const renderMap = (map) => {
             },
           });
 
+          /*
           //Add START/END markers on map
           new mapboxgl.Marker({ color: "red" })
             .setLngLat(coordinates[0])
@@ -96,6 +97,7 @@ const renderMap = (map) => {
             .setLngLat(coordinates[coordinates.length - 1])
             .addTo(map);
 
+          */
           //Add waypoints on map
           json.waypoints.forEach((waypoint) => {
             console.log(waypoint);
