@@ -1,3 +1,12 @@
+*{
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.88px;
+    line-height: 26px;
+    color: #2F4858;
+}
+
 .logoPuglia{
     width: 160px;
     height: 70px;
@@ -72,7 +81,7 @@
 
     .buttonWrapper{
         padding-right: 10px;
-        padding-top: 100px;
+        padding-top: 45px;
     }
 
     .buttonWrapper .vaiA{
@@ -88,6 +97,12 @@
         font-weight: 400;
         top: 183px; 
         left: 574px;
+    }
+
+    .logoPanetti{
+        width: 160px;
+        height: 70px;
+        text-align: right;
     }
 
      @media only screen and (max-width: 468px) {

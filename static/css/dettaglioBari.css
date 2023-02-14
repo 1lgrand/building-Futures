@@ -1,3 +1,5 @@
+
+
 *{
     font-family: 'Roboto Serif', serif;
 }
@@ -32,11 +34,12 @@
     left: 339px;
     top: 865.26px;
     text-align: center;
+    
 }
 
 #txtContainer{
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 
 .cards{
@@ -77,4 +80,19 @@
 #map{
     width: 832px;
     height: 526px;
+}
+
+.logoPanetti{
+    width: 160px;
+    height: 70px;
+    text-align: right;
+}
+
+@media screen and (max-width: 468px) {
+    body{
+        width: 850px;
+        margin-right: 50%;
+        margin-left: 50%;
+        display: block;
+    }
 }
