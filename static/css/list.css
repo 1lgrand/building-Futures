@@ -80,7 +80,7 @@
 
     .buttonWrapper{
         padding-right: 10px;
-        margin-top: 90px;
+        padding-top: 45px;
     }
 
     .buttonWrapper .vaiA{
@@ -96,6 +96,12 @@
         font-weight: 400;
         top: 183px; 
         left: 574px;
+    }
+
+    .logoPanetti{
+        width: 160px;
+        height: 70px;
+        text-align: right;
     }
 
      @media only screen and (max-width: 468px) {
