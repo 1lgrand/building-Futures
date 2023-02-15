@@ -26,6 +26,7 @@
     padding-left: 65px;
     padding-top: 50px;
     padding-right: 65px;
+    flex-grow: 1;
 }
 
 .carda .content div{
@@ -51,6 +52,21 @@
     font-weight: 400;
     border: none;
     align-items: right;
+    
+}
+
+.contento{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bottone{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 5%;
+    padding-bottom: 2%;
 }
 
 .carda .image{
@@ -83,8 +99,6 @@
    a{
     text-decoration: none;
 }
-
-
 
     .logoPanetti{
         width: 160px;
@@ -182,14 +196,14 @@
         width: 100%;
     }
 
-    .content{
-        padding-left: 50%;
-        padding-top: 50%;
-        padding-right: 50%;
+    .carda .content{
+        padding-left: 12px;
+        padding-top: 12px;
+        padding-right: 12px;
     }
 
-    .carda .content div{
+    .bottone{
         justify-content: center;
-        margin-bottom: 5%;
     }
+    
 }
