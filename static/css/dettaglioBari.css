@@ -34,11 +34,10 @@
 .text{
     margin-top: 35px;
     width: 765px;
-    height: 236px;
     left: 339px;
     top: 865.26px;
     text-align: center;
-    
+    margin-bottom: 30px;
 }
 
 #txtContainer{
@@ -48,7 +47,7 @@
 
 .cards{
     width: 766px;
-    height: 284px;
+    height: fit-content;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -92,14 +91,24 @@
     text-align: right;
 }
 
+#btnFoto{
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    background-color: #2F4858;
+}
+
 @media screen and (max-width: 740px) {
-    body{
-        width: 850px;
-        margin-right: 50%;
-        margin-left: 50%;
-        display: block;
-    }
+    
     .text{
         font-size: 15px;
     }
+
+    .container{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+
+    
 }
