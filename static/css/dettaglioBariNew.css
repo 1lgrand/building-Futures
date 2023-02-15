@@ -31,7 +31,7 @@
 
 .text{
     margin-top: 35px;
-    width: 50%;
+    width: 100%;
     left: 339px;
     top: 865.26px;
     text-align: center;
@@ -43,41 +43,12 @@
     justify-content:center;
 }
 
-.cards{
+.carda{
     width: 50%;
-    height: fit-content;
-    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-}
-
-.cardIntestazione{
-    padding-left: 30px;
-    padding-top: 50px;
-    display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-    padding-right: 30px;
-
-}
-
-#testoCard{
-    width: 70%;
-}
-
-.sottoIntestazione{
-    display: flex;
-    flex-direction: row;
-    padding-left: 30px;
-}
-
-.btn{
-    width: 100%;
-    height: 74px;
-    justify-self: end;
-    align-self: flex-end;
-    padding-bottom: 20px;
+    background: rgba(51, 101, 138, 0.5);
 }
 
 /*Id della mappa gps da aggiungere*/
@@ -99,34 +70,24 @@
     background-color: #2F4858;
 }
 
+.titolo{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
 @media screen and (max-width: 740px) {
+    
+    .text{
+        font-size: 15px;
+    }
 
-.cardIntestazione img{
-    width: 10%;
-}
+    .container{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
 
-.cardIntestazione h1{
-    font-size: 120%;
-}
-
-.text{
-    width: 90%;
-}
-
-.cards{
-    width: 85%;
-}
-
-.btn{
-    width: 50%;
-    height: 80%;
-}
-
-
-
-.btn img{
-    width: 20px;
-    height: 30px;
-}
     
 }
