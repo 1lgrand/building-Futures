@@ -2,9 +2,8 @@
     font-family: 'Roboto Serif', serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 21.88px;
     line-height: 26px;
-    color: #181e22;
+    color: #2F4858;
 }
 
 #main{
@@ -17,7 +16,39 @@
     text-align: right;
 }
 
+.logoPuglia{
+    width: 160px;
+    height: 70px;
+    text-align: center;
+}
+
 .ig{
     width: 60px;
     height: 60px;
+}
+
+.collabInsta{
+    padding-top: 50px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.insta{
+    padding-right: 20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
 }
