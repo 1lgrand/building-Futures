@@ -96,6 +96,11 @@
     background-color: #2F4858;
 }
 
+.imageAlbero{
+    width: 100%;
+    height: 526px;
+}
+
 @media screen and (max-width: 740px) {
 
 .cardIntestazione img{
@@ -118,8 +123,6 @@
     width: 50%;
     height: 80%;
 }
-
-
 
 .btn img{
     width: 20px;
