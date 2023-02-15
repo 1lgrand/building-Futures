@@ -6,6 +6,60 @@
     color: #2F4858;
 }
 
+#main{
+
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.carda{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    position: relative;
+    border-radius: 10px;
+}
+.carda .content{
+    padding-left: 65px;
+    padding-top: 50px;
+    padding-right: 65px;
+}
+
+.carda .content div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.carda p{
+    color: #2F4858;
+    margin-top: 25px;
+}
+
+.carda a{
+    background-color: #33658A;
+    border-radius: 20px;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    font-family: 'Roboto';
+    font-size: normal;
+    font-weight: 400;
+    border: none;
+    align-items: right;
+}
+
+.carda .image{
+    width: 30%;
+    min-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .logoPuglia{
     width: 160px;
     height: 70px;
@@ -30,73 +84,7 @@
     text-decoration: none;
 }
 
-.container{
-    width: 832px;
-    height: 884px;
-    /*right: 190px;*/
-    
-}
 
-.cardImg{
-    width: 255px;
-    height: 244px;
-    padding-right: 10px;
-}
-
-.card1{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    left: 3%;
-    right: 3%;
-    top: 2%;
-    bottom: 64%;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-
-    }
-
-.card2{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    left: 3%;
-    right: 3%;
-    top: 36%;
-    bottom: 30%;
-
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 10px;
-    }
-
-    .vector .vaiA{
-
-        left: 99%;
-        right: 1%;
-        top: 79%;
-        bottom: 12%;
-        background: #FFFFFF;
-        transform: rotate(90deg);
-    }
-
-    .buttonWrapper{
-        padding-right: 10px;
-        padding-top: 45px;
-    }
-
-    .buttonWrapper .vaiA{
-        background-color: #33658A;
-        border-radius: 20px;
-        color: #fff;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 10px;
-        padding-bottom: 9px;
-        font-family: 'Roboto';
-        font-size: normal;
-        font-weight: 400;
-        top: 183px; 
-        left: 574px;
-    }
 
     .logoPanetti{
         width: 160px;
@@ -104,30 +92,6 @@
         text-align: right;
     }
 
-     @media only screen and (max-width: 468px) {
-
-        .cardImg{
-            width: auto;
-        }
-
-        /*#headerMenu{
-            display: flex;
-            flex-direction: row;
-            margin: auto 0;
-        } */
-      } 
-
-
-section {
-  width: 100%;
-  display: inline-block;
-  background: #333;
-  height: 50vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
-}
 
 .footer-distributed{
 	background: #666;
@@ -137,9 +101,8 @@ section {
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
+    margin-top: 65px;
 }
-
-
 
 
 .footer-distributed .footer-center{
@@ -178,12 +141,6 @@ section {
 	line-height:2;
 }
 
-
-
-
-
-
-
 .footer-distributed .footer-company-about{
 	line-height: 20px;
 	color:  #92999f;
@@ -210,4 +167,29 @@ section {
 		margin-left: 0;
 	}
 
+@media screen and (max-width: 768px) {
+    .carda{
+        flex-direction: column;
+        text-align:center;
+    }
 
+
+    .carda .image{
+        width: 100%;
+    }
+
+    .carda div{
+        width: 100%;
+    }
+
+    .content{
+        padding-left: 50%;
+        padding-top: 50%;
+        padding-right: 50%;
+    }
+
+    .carda .content div{
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+}
