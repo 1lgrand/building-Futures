@@ -98,7 +98,7 @@
     background-color: #2F4858;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 860px) {
 
 .cardIntestazione img{
     width: 10%;
@@ -121,7 +121,9 @@
     height: 80%;
 }
 
-
+#map{
+    height: 50vh;
+}
 
 .btn img{
     width: 20px;
