@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--
+        TODO:
+        Cambiare titolo finestra;
+
+    -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/dettaglioAlberobello.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+        crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,400;8..144,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="static/images/pugliaIcon.png" type="image/x-icon">
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,400;8..144,700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet" />
+    
+
+    <title>Pagina di dettaglio</title>
+</head>
+<body>
+
+    <header id="headerMenu" class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+            <img src="static/images/puglia.png" alt="logoPuglia" class="logoPuglia">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+
+          <li>
+            <a href="index.html" class="nav-link px-2 link-secondary">Percorsi</a>
+        </li>
+
+          <li>
+            <a href="index.html" class="nav-link px-2 link-dark">Homepage</a>
+        </li>
+
+          <li>
+            <a href="colloboraConNoi.html" class="nav-link px-2 link-dark">Collabora con noi </a>
+        </li>
+
+        </ul>
+  
+        <div class="col-md-3 text-end">
+          <a href="https://www.panettipitagora.edu.it/qs/index.php" target="_blank"><img href="" class="logoPanetti" src="static/images/panettiP.jpg" alt=""></a>
+        </div>
+      </header>
+
+
+      <!--Aggiungere nome del posto-->
+      <h1 id="titolo">FOGGIA</h1>
+
+      
+
+    <div id="map" data-gpx="/static/gpx/foggia.gpx"></div>
+    <script src="./static/js/GPXParser.js"></script>
+    <script src="./static/js/rendermap.js"></script>
+      
+
+      <div id="container">
+
+        <div id="txtContainer">
+          <p class="text">
+            In questa passeggiata a piedi conoscerete il centro di Foggia.
+          </p>
+        </div>
+
+        <div style="background: rgba(165, 165, 165, 0.5);" class="cards" id="pin-1">
+          <div  class="cardIntestazione">
+            <h1>Pin 1</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Piazza Cavour</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p id="testoCard">
+              La piazza, di forma pentagonale, è impreziosita al centro da una caratteristica fontana "Fontana del Sele", posta a ricordo del tempo in cui la città poté beneficiare, dopo lunghi anni di attesa, dell'acqua del Sele. A fare da sfondo alla ottocentesca piazza vi è l'elegante pronao in stile neoclassico, progettato da Luigi Oberty che permette di accedere alla villa. Alla destra si stagliano le due cupole che sovrastano il palazzo dell'Acquedotto pugliese, mentre alla sinistra fa da angolo la semplice ed elegante facciata del palazzo che ospita l'Università. Dei vari lati che racchiudono la piazza, uno di quelli che non sono stati toccati dalla ricostruzione di enormi edifici negli anni settanta è quello che ospita il palazzo Mandara, edificato nell'Ottocento.
+            </p>
+          </div>       
+        </div>
+
+        <div style="background: rgba(165, 165, 165, 0.5);" class="cards" id="pin-2">
+          <div  class="cardIntestazione">
+            <h1>Pin 2</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Chiesa di San Giovanni Battista</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p>Appena distante dalla Porta Arpana, alla sinistra del tratturo che collega&nbsp;<u>Foggia</u><span>&nbsp;a&nbsp;</span><u>Candelaro</u><span>, sorge la chiesetta dedicata a San Giovanni Battista, eretta nel Cinquecento e poi ricostruita un secolo dopo, nominata&nbsp;</span>Basilica Minore<span>&nbsp;nel 1889.</span><br><span>La chiesetta fu per ben due volte teatro di&nbsp;</span>miracolosi prodigi: subito dopo il terremoto del 1731, a Sant’Alfonso apparve la Vergine Icona Vetere mentre nel 1837 la Vergine Addolorata, muovendo gli occhi al cielo e versando lacrime durante un momento di preghiera, salvò la città dall’epidemia di colera.<br><span>La semplicità dell’esterno tradisce una tendenza barocca, accentuata dalla&nbsp;</span>scalinata<span>&nbsp;che converge verso l’ingresso e dalle&nbsp;</span>decorazioni scultoree<span>&nbsp;ai lati del portale. L’interno, a croce latina, ha una sola navata e un&nbsp;</span>ricco apparato decorativo, più volte restaurato nel corso degli anni.&nbsp;<span>La chiesa possiede tre&nbsp;</span>altari<span>: il maggiore, con&nbsp;</span>marmi pregiati<span>&nbsp;e baldacchino su colonne, dedicato a San Giovanni Battista, e i minori collocati nelle cappelle del transetto, dedicati alla Addolorata liberatrice dal colera e al Sacro Cuore.</span></p>
+          </div>       
+        </div>
+
+        <div style="background: rgba(165, 165, 165, 0.5);" class="cards" id="pin-3">
+          <div  class="cardIntestazione">
+            <h1>Pin 3</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Chiesa delle Croci</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <div class="vco-text-content"><div><div><p><em>Un lungo viale, un arco trionfale, cinque cappelle allineate e una chiesetta: è il sorprendente complesso della Chiesa delle Croci.&nbsp;</em></p></div></div><span><div><p>Con una scenografica prospettiva, il complesso della Chiesa delle Croci accoglie il visitatore e lo accompagna lungo un&nbsp;viale tappezzato di aiuole&nbsp;per ben 200 metri di meraviglia, al cospetto dell’unico&nbsp;monumento nazionale&nbsp;della città.<br>Edificato nel Seicento per volere dei Cappuccini quando padre Antonio da Olivati, a seguito di una predicazione, piantò sette croci fuori città, il complesso racchiude un&nbsp;arco trionfale&nbsp;in stile barocco sormontato da una croce e due angeli,&nbsp;cinque cappelle&nbsp;con pilastri che sorreggono delle cupolette e una&nbsp;chiesetta&nbsp;in tardo stile barocco: in tutto sette monumenti che hanno preso il posto delle sette croci.<br>La chiesa ha una pianta a forma di croce latina, con una sola navata e due cappelle laterali. L’altare maggiore è sormontato da una grande croce, dove è custodita una&nbsp;reliquia del Santo Legno della vera Croce di Gesù, mentre sulla volta una tela raffigura la&nbsp;Salita al Calvario&nbsp;di scuola napoletana.<br>Sotto la chiesa, si trova una piccola&nbsp;cripta&nbsp;chiamata Terra Santa, sede di riunioni segrete durante il Risorgimento e dimora eterna dei soldati caduti durante il primo conflitto mondiale.<br></p></div><a target="" rel=""></a></span></div>
+          </div>       
+        </div>
+
+        <div style="background: rgba(165, 165, 165, 0.5);" class="cards" id="pin-4">
+          <div  class="cardIntestazione">
+            <h1>Pin 4</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Epitaffio</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p>L’epitaffio (in dialetto u patàffie) è un monumento che rappresenta il punto di incrocio tra i tra i due tratturi, l’uno proveniente da L’Aquila (243 Km), l’altro da Celano (207 Km) e quindi è legato al fenomeno della&nbsp;<strong><em><a href="https://manganofoggia.it/la-transumanza/" target="" rel="">transumanza</a></em></strong><span>. Questo monumento fu innalzato nel 1651 per ringraziamento al re spagnolo Filippo IV ed infatti sulla sua sommità è sistemata una statua che dovrebbe rappresentare proprio il sovrano in questione. In realtà non si è certi che quella statua rappresenti veramente il re spagnolo, potrebbe essere una delle tante statue napoletane prodotte nel Seicento ma la leggenda racconta che potrebbe essere una persona incaricata dal re stesso per fare la guardia al suo tesoro. Non si sa se per questo motivo o per ricordare la grande ricchezza acquisita da Foggia con le attività legate alla pastorizia e alla “Dogana delle Pecore”, l’epitaffio veniva indicata sino alla fine dell’800 con il nome della “statua del tesoro”.</span></p>
+          </div>       
+        </div>
+
+        <div style="background: rgba(165, 165, 165, 0.5);" class="cards" id="pin-5">
+          <div  class="cardIntestazione">
+            <h1>Pin 5</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Palazzo di Federico II</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p><span>Anche se di quella sontuosa&nbsp;residenza&nbsp;oggi non vi è traccia se non nel&nbsp;portale&nbsp;e nell'annessa epigrafe, sembrerebbe oramai definitivamente acclarato (da numerose testimonianze storico-documentarie) che Federico II abbia scelto Foggia come sede idonea per fare erigere&nbsp;il&nbsp;suo&nbsp;imponente palazzo imperiale,&nbsp;in&nbsp;una&nbsp;terra&nbsp;dove l'imperatore svevo era solito trascorrere gran parte dei mesi più freddi dell’anno. Il&nbsp;progetto del maestoso edificio fu affidato all’architetto Bartolomeo da&nbsp;Foggia.<br></span><span>Come detto del palazzo imperiale oggi resta solo l'archivolto a cornice sporgente ed un’epigrafe. Le distruzioni causate dalle varia calamità, in primis il terremoto del 1731 e i bombardamenti anglo- americani del 1943, ci consentono di "limitare" le testimonianze del palatium a questi due elementi architettonici che fino al 1943 erano posti sulla facciata di un palazzo della vicina Via Pescheria. Secondo i calcoli dello studioso Leistkow era alto 7,38 metri e largo 3,20 metri, è costituito da un arco finemente scolpito a foglie di acanto ed impostato su due capitelli a forma di aquile (simbolo svevo). Al centro del portale è posta la lastra epigrafica in marmo bianco con scritte in caratteri gotici. L'iscrizione è distribuita su cinque righe sulla quale sono riportati i dati relativi alla costruzione del palazzo (giugno 1223), quelli relativi agli anni di regno e di impero di Federico II, il nome del protomagister Bartolomeo progettista ed esecutore dei lavori.</span><br></p>
+          </div>       
+        </div>
+
+        <div style="background: rgba(165, 165, 165, 0.5);" class="cards" id="pin-6">
+          <div  class="cardIntestazione">
+            <h1>Pin 6</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Chiesa dei Morti</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p>La chiesa sorge in Piazza del Purgatorio nel cuore del centro storico. Fu fondata nel 1650 come sede della Confraternita dei Bianchi (o dei morti).<br>La facciata a ordine unico, è scandita da quattro lesene che reggono capitelli dai quali parte un elegante festone costituito di teschi con tibie incrociate, alternati ai simboli del potere temporale e spirituale. Il portale è sovrastato da un timpano, che contiene l’epigrafe di fondazione della chiesa, ed è decorato da teschi. Tibie incrociate, altresì, si trovano lungo le cornici delle due finestre sovrastanti le due nicchie che fiancheggiano il portale.<br>La chiesa ad aula unica con terminazione piatta, conserva un monumentale altare maggiore, opera di Lorenzo Vaccaro e Antonio Fontana, nel 1687, con marmi commessi, statue a tutto tondo (san Michele e l’Angelo custode), vari putti. La pala d’altare, attribuita a Benedetto Brunetti da Oratino (1628-1698), raffigura la Madonna del Suffragio; sul fastigio dell’altare si trova un piccolo riquadro con una rappresentazione dell’Ecce homo, da alcuni attribuito a Guido Reni. Lungo le pareti sono collocate quattordici grandi tele, che illustrano le opere di misericordia corporale e spirituale, attribuite ancora al Brunetti (1677). Degno di nota è anche il soffitto ligneo a cassettoni, commissionato da Giovanni Battista Falciglia nel 1656.<br>Al di sotto dell’edificio si sviluppano ambienti ipogei che, secondo alcuni studiosi locali, sarebbero da mettere in rapporto al palazzo di Federico II che doveva occupare più o meno l’area su sui sorge la chiesa.<br><span>Dopo una recente campagna di restauro che ha interessato anche le opere d’arte custodite al suo interno, è stata restituita al culto nel 2014 ed è stata affidata alla comunità Magnificat Dominum.</span></p>
+          </div>       
+        </div>
+
+        <div style="background: rgba(165, 165, 165, 0.5);" class="cards" id="pin-7">
+          <div  class="cardIntestazione">
+            <h1>Pin 7</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Teatro Umberto Giordano</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p><span>Nel cuore di Foggia, l’Ottocento elegante rivive nel Teatro Giordano, pregevole architettura neoclassica inaugurata nel 1828 e progettata dall’ingegner Luigi Oberty. L'elegante facciata neoclassica aveva inizialmente un porticato con sei colonne, tre ampie finestre e un timpano sporgente. La pianta costruita a forma di ferro di cavallo, presentava in alzato la platea, con quattro ordini di palchi, di cui l'ultimo a galleria. Nel 1877 un radicale intervento di restauro ha modificato l’aspetto del teatro, con l’apertura di balconi al posto delle finestre e un maggior numero di posti a sedere. Inizialmente denominato Reale Teatro Ferdinando, divenne poi Teatro Dauno e infine fu dedicato al musicista di origini foggiane Umberto Giordano, vissuto tra il 1867 e il 1948.</span></p>
+          </div>       
+        </div>
+
+        <div style="background: rgba(165, 165, 165, 0.5);" class="cards" id="pin-8">
+          <div  class="cardIntestazione">
+            <h1>Pin 7</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>Cattedrale di Foggia</h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p>La Cattedrale di Foggia, detta "Chiesa madre", è intitolata a Santa Maria Assunta. Fu realizzata nel 1170&nbsp;in&nbsp;stile&nbsp;romanico, ma, in seguito ad alcuni danni&nbsp;subiti&nbsp;nel XVIII secolo, assunse l'aspetto barocco che ancora oggi possiamo ammirare. L’attuale cripta venne ricostruita nel XIII secolo nel luogo dove sorgeva l’edificio originario e proprio dove, secondo la tradizione, fu ritrovata l’Iconavetere, la preziosa tavola che rappresenta l’effige rarissima della Vergine Kyriotiss o Madonna dei Sette Veli e oggi custodita nella cappella basilicale. La&nbsp;Cattedrale&nbsp;di&nbsp;Foggia&nbsp;custodisce preziosi manufatti e parte degli originali prospetti romanici; le opere sul cornicione sono opera di Bartolomeo da Foggia. Di interesse è il portale di San&nbsp;Martino.&nbsp;La cripta del Succorpo è di origini medievali. Molto&nbsp;interessanti&nbsp;sono&nbsp;gli&nbsp;affreschi&nbsp;posti a decorazione&nbsp;della&nbsp;cripta,&nbsp;soprattutto quello raffigurante Gesù Maestro. L'altare maggiore nell'edificio sacro&nbsp;è&nbsp;stato realizzato in&nbsp;marmi&nbsp;policromi&nbsp;del settecento. Gli angeli a decorazione dell'altare&nbsp;sono&nbsp;stati&nbsp;realizzati da Giuseppe Sanmartino.</p>
+          </div>       
+        </div>
+      
+      </div>
+</body>
+</html>

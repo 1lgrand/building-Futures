@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2" version="1.1" creator="https://gpx.studio">
+<metadata>
+    <name>new</name>
+    <author>
+        <name>gpx.studio</name>
+        <link href="https://gpx.studio"></link>
+    </author>
+</metadata>
+<wpt lat="41.4619347719348" lon="15.55242678579855">
+    <ele>74.6</ele>
+    <name>Piazza Cavour</name>
+    <desc>Partiamo da qui!</desc>
+    <cmt>/dettaglioFoggia.html#pin-1</cmt>
+</wpt>
+<wpt lat="41.465254867475124" lon="15.544961735990322">
+    <ele>75.1</ele>
+    <name>Palazzo di Federico II</name>
+    <desc>Clicca qui per andare alla descrizione</desc>
+    <cmt>/dettaglioFoggia.html#pin-5</cmt>
+</wpt>
+<wpt lat="41.46595979738871" lon="15.545735552128967">
+    <ele>73.3</ele>
+    <name>Chiesa di San Giovanni Battista</name>
+    <desc>Clicca qui per andare alla descrizione</desc>
+    <cmt>/dettaglioFoggia.html#pin-2</cmt>
+</wpt>
+<wpt lat="41.46590579093256" lon="15.543964120086034">
+    <ele>75.4</ele>
+    <name>Chiesa delle Croci</name>
+    <desc>Clicca qui per andare alla descrizione</desc>
+    <cmt>/dettaglioFoggia.html#pin-3</cmt>
+</wpt>
+<wpt lat="41.465635757976976" lon="15.543933774355107">
+    <ele>76.0</ele>
+    <name>Epitaffio</name>
+    <desc>Clicca qui per andare alla descrizione</desc>
+    <cmt>/dettaglioFoggia.html#pin-4</cmt>
+</wpt>
+<wpt lat="41.46462383500324" lon="15.5452651932996">
+    <ele>73.3</ele>
+    <name>Chiesa dei Morti</name>
+    <desc>Clicca qui per andare alla descrizione</desc>
+    <cmt>/dettaglioFoggia.html#pin-6</cmt>
+</wpt>
+<wpt lat="41.46402690674246" lon="15.546065561952796">
+    <ele>79.3</ele>
+    <name>Teatro Umberto Giordano</name>
+    <desc>Clicca qui per andare alla descrizione</desc>
+    <cmt>/dettaglioFoggia.html#pin-7</cmt>
+</wpt>
+<wpt lat="41.46352905561197" lon="15.544238090515138">
+    <ele>82.0</ele>
+    <name>Cattedrale di Foggia</name>
+    <desc>Clicca qui per andare alla descrizione</desc>
+    <cmt>/dettaglioFoggia.html#pin-8</cmt>
+</wpt>
+<trk>
+    <name>new</name>
+    <type>Running</type>
+    <trkseg>
+    <trkpt lat="41.462292" lon="15.552218">
+        <ele>76.0</ele>
+        <extensions>
+        <gpxtpx:TrackPointExtension>
+        <gpxtpx:Extensions>
+            <surface>asphalt</surface>
+        </gpxtpx:Extensions>
+        </gpxtpx:TrackPointExtension>
+        </extensions>
+    </trkpt>
+    <trkpt lat="41.462363" lon="15.552156">
+        <ele>76.5</ele>
+        <extensions>
+        <gpxtpx:TrackPointExtension>
+        <gpxtpx:Extensions>
+            <surface>asphalt</surface>
+        </gpxtpx:Extensions>
+        </gpxtpx:TrackPointExtension>
+        </extensions>
+    </trkpt>
+    <trkpt lat="41.462393" lon="15.552134">
+        <ele>76.5</ele>
+        <extensions>
+        <gpxtpx:TrackPointExtension>
+        <gpxtpx:Extensions>
+            <surface>asphalt</surface>
+        </gpxtpx:Extensions>
+        </gpxtpx:TrackPointExtension>
+        </extensions>
+    </trkpt>
+    <trkpt lat="41.462413" lon="15.55212">
+        <ele>76.5</ele>
+        <extensions>
+        <gpxtpx:TrackPointExtension>
+        <gpxtpx:Extensions>
+            <surface>asphalt</surface>
+        </gpxtpx:Extensions>
+        </gpxtpx:TrackPointExtension>
+        </extensions>
+    </trkpt>
+    <trkpt lat="41.463061" lon="15.551672">
+        <ele>77.8</ele>
+        <extensions>
+        <gpxtpx:TrackPointExtension>
+        <gpxtpx:Extensions>
+            <surface>asphalt</surface>
+        </gpxtpx:Extensions>
+        </gpxtpx:TrackPointExtension>
+        </extensions>
+    </trkpt>
+    <trkpt lat="41.463058" lon="15.551669">
+        <ele>79.1</ele>
+    </trkpt>
+    <trkpt lat="41.462786332512934" lon="15.551478910444386">
+        <ele>78.9</ele>
+    </trkpt>
+    <trkpt lat="41.462514663887745" lon="15.551288820888766">
+        <ele>79.7</ele>
+    </trkpt>
+    <trkpt lat="41.463017232146434" lon="15.550209847840872">
+        <ele>72.8</ele>
+    </trkpt>
+    <trkpt lat="41.46351979651011" lon="15.54913087479298">
+        <ele>73.3</ele>
+    </trkpt>
+    <trkpt lat="41.46402235697878" lon="15.548051901745085">
+        <ele>79.3</ele>
+    </trkpt>
+    <trkpt lat="41.464524913552445" lon="15.546972928697189">
+        <ele>76.2</ele>
+    </trkpt>
+    <trkpt lat="41.46502746623107" lon="15.545893955649296">
+        <ele>72.5</ele>
+    </trkpt>
+    <trkpt lat="41.465334456720136" lon="15.545234847568674">
+        <ele>73.8</ele>
+    </trkpt>
+    <trkpt lat="41.46564144289291" lon="15.545462440550613">
+        <ele>74.2</ele>
+    </trkpt>
+    <trkpt lat="41.46594842761222" lon="15.545690033532555">
+        <ele>73.4</ele>
+    </trkpt>
+    <trkpt lat="41.466090549675265" lon="15.545318298328697">
+        <ele>74.2</ele>
+    </trkpt>
+    <trkpt lat="41.46623267142677" lon="15.544946563124835">
+        <ele>75.8</ele>
+    </trkpt>
+    <trkpt lat="41.466062125287564" lon="15.544726556575618">
+        <ele>76.3</ele>
+    </trkpt>
+    <trkpt lat="41.46589157869979" lon="15.5445065500264">
+        <ele>77.9</ele>
+    </trkpt>
+    <trkpt lat="41.466033700887465" lon="15.543398930847525">
+        <ele>72.8</ele>
+    </trkpt>
+    <trkpt lat="41.466175822763574" lon="15.54229131166865">
+        <ele>70.4</ele>
+    </trkpt>
+    <trkpt lat="41.4657778807254" lon="15.542723738334363">
+        <ele>71.8</ele>
+    </trkpt>
+    <trkpt lat="41.46537993624486" lon="15.54315616500008">
+        <ele>72.8</ele>
+    </trkpt>
+    <trkpt lat="41.465499319845435" lon="15.543512727338497">
+        <ele>73.5</ele>
+    </trkpt>
+    <trkpt lat="41.46561870322623" lon="15.543869289676913">
+        <ele>75.5</ele>
+    </trkpt>
+    <trkpt lat="41.46569829202467" lon="15.544210679149844">
+        <ele>77.7</ele>
+    </trkpt>
+    <trkpt lat="41.46577788072537" lon="15.544552068622776">
+        <ele>78.5</ele>
+    </trkpt>
+    <trkpt lat="41.46560733338994" lon="15.544863112364796">
+        <ele>78.7</ele>
+    </trkpt>
+    <trkpt lat="41.465436785605895" lon="15.545174156106818">
+        <ele>75.1</ele>
+    </trkpt>
+    <trkpt lat="41.465317401890154" lon="15.545098291779498">
+        <ele>74.7</ele>
+    </trkpt>
+    <trkpt lat="41.4651980179546" lon="15.545022427452178">
+        <ele>74.3</ele>
+    </trkpt>
+    <trkpt lat="41.46511842854211" lon="15.544916217393931">
+        <ele>74.4</ele>
+    </trkpt>
+    <trkpt lat="41.46503883903194" lon="15.544810007335684">
+        <ele>75.2</ele>
+    </trkpt>
+    <trkpt lat="41.46496493439931" lon="15.544908630961189">
+        <ele>74.4</ele>
+    </trkpt>
+    <trkpt lat="41.46489102968243" lon="15.545007254586693">
+        <ele>73.8</ele>
+    </trkpt>
+    <trkpt lat="41.464760274977" lon="15.544855525932054">
+        <ele>75.0</ele>
+    </trkpt>
+    <trkpt lat="41.46462952000787" lon="15.544703797277412">
+        <ele>76.9</ele>
+    </trkpt>
+    <trkpt lat="41.46453287486123" lon="15.544840353066588">
+        <ele>76.1</ele>
+    </trkpt>
+    <trkpt lat="41.46443622957055" lon="15.544976908855766">
+        <ele>75.7</ele>
+    </trkpt>
+    <trkpt lat="41.46452718984813" lon="15.545098291779478">
+        <ele>74.5</ele>
+    </trkpt>
+    <trkpt lat="41.464618149998095" lon="15.54521967470319">
+        <ele>73.3</ele>
+    </trkpt>
+    <trkpt lat="41.464677842527166" lon="15.545322091545078">
+        <ele>73.2</ele>
+    </trkpt>
+    <trkpt lat="41.4647375350013" lon="15.545424508386965">
+        <ele>73.1</ele>
+    </trkpt>
+    <trkpt lat="41.464643732517295" lon="15.545549684527039">
+        <ele>73.4</ele>
+    </trkpt>
+    <trkpt lat="41.464549929897615" lon="15.54567486066711">
+        <ele>74.2</ele>
+    </trkpt>
+    <trkpt lat="41.464390749383945" lon="15.545519338796112">
+        <ele>74.5</ele>
+    </trkpt>
+    <trkpt lat="41.4642315684795" lon="15.54536381692511">
+        <ele>76.2</ele>
+    </trkpt>
+    <trkpt lat="41.464157662926745" lon="15.54548140663244">
+        <ele>76.6</ele>
+    </trkpt>
+    <trkpt lat="41.46408375728977" lon="15.545598996339772">
+        <ele>77.3</ele>
+    </trkpt>
+    <trkpt lat="41.46394731589251" lon="15.545557270959762">
+        <ele>79.0</ele>
+    </trkpt>
+    <trkpt lat="41.46381087420814" lon="15.545515545579748">
+        <ele>80.1</ele>
+    </trkpt>
+    <trkpt lat="41.46366590460393" lon="15.545360023708746">
+        <ele>81.3</ele>
+    </trkpt>
+    <trkpt lat="41.4635209346756" lon="15.545204501837745">
+        <ele>80.6</ele>
+    </trkpt>
+    <trkpt lat="41.463643164244445" lon="15.545014841019436">
+        <ele>82.3</ele>
+    </trkpt>
+    <trkpt lat="41.463765393582875" lon="15.544825180201125">
+        <ele>82.1</ele>
+    </trkpt>
+    <trkpt lat="41.463597683501575" lon="15.544608966868267">
+        <ele>82.7</ele>
+    </trkpt>
+    <trkpt lat="41.463429972986496" lon="15.544392753535409">
+        <ele>82.4</ele>
+    </trkpt>
+    <trkpt lat="41.463429972986496" lon="15.544297923126264">
+        <ele>82.1</ele>
+    </trkpt>
+    <trkpt lat="41.463429972986496" lon="15.544203092717119">
+        <ele>81.9</ele>
+    </trkpt>
+    <trkpt lat="41.463472611294144" lon="15.544210679149842">
+        <ele>81.9</ele>
+    </trkpt>
+    <trkpt lat="41.463515249573774" lon="15.544218265582563">
+        <ele>82.0</ele>
+    </trkpt>
+    </trkseg>
+</trk>
+</gpx>
