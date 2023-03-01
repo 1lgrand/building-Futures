@@ -1,10 +1,11 @@
 # Sito Per Building Futures
 > Abbiamo realizzato questo sito per il progetto Building Futures
 
+<img src="/images/screenshot/percorsi-readme.png">
+
 ## Contenuti
 - [Pagina Principale](#Pagina-Principale).
 - [Percorsi](#Percorsi).
-    -[gpxParser](#file-gpx)
 - [Come Collaborare](#Come-Collaborare).
 - [Autori](#Authors).
 
@@ -17,4 +18,6 @@
 
 ## Percorsi
 - In ogni percorso è presente la località, una mappa ottenuta tramite due script che ottenuti da questa repository: **<a>https://github.com/manuelmanna/GPXViewer</a>**
+- In punto "noto" del paese o del luogo visitato , va attribuita una "card", con foto del posto e breve descrizione.
+
 
