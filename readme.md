@@ -1,7 +1,7 @@
 # Sito Per Building Futures
 > Abbiamo realizzato questo sito per il progetto Building Futures
 
-<img src="/images/screenshot/percorsi-readme.png">
+<img src="\static\images\screenshot\percorsi-readme.png" alt="ScreenShot Site">
 
 ## Contenuti
 - [Pagina Principale](#Pagina-Principale).
