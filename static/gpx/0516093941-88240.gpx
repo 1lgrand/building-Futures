@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2" version="1.1" creator="https://gpx.studio">
+<metadata>
+    <name>0516093941-88240</name>
+    <author>
+        <name>gpx.studio</name>
+        <link href="https://gpx.studio"></link>
+    </author>
+</metadata>
+<wpt lat="41.127991" lon="16.8717813">
+    <ele>2.1</ele>
+    <name>1 - START!</name>
+    <desc>Si parte da Piazza del Ferrarese</desc>
+    
+</wpt>
+<wpt lat="41.1303265" lon="16.8696946">
+    <ele>10.5</ele>
+    <name>3 - Basilica di San Nicola</name>
+    <desc>Clicca per andare alla descrizione</desc>
+    <cmt>/dettaglioBari.html#sannicola</cmt>
+</wpt>
+<wpt lat="41.1309649" lon="16.8690938">
+    <ele>8.6</ele>
+    <name>2 - La testa del Turco</name>
+    <desc>Clicca per andare alla card descrittiva</desc>
+    <cmt>/dettaglioBari.html#testaditurco</cmt>
+</wpt>
+<wpt lat="41.1285526" lon="16.8685842">
+    <ele>11.6</ele>
+    <name>4 - Cattedrale di San Sabino</name>
+    <desc>Clicca per andare alla card descrittiva</desc>
+    <cmt>/dettaglioBari.html#cattedrale</cmt>
+</wpt>
+<wpt lat="41.12809" lon="16.8673155">
+    <ele>8.3</ele>
+    <name>5 - Cartello Normanno Svevo</name>
+    <desc>Clicca per andare alla card descrittiva</desc>
+    <cmt>/dettaglioBari.html#castello</cmt>
+</wpt>
+<wpt lat="41.1277768" lon="16.8673906">
+    <ele>11.0</ele>
+    <name>6 - Maria delle Sgagliozze</name>
+    <desc>Clicca per andare alla card descrittiva</desc>
+    <cmt>/dettaglioBari.html#maria</cmt>
+</wpt>
+<trk>
+    <name>0516093941-88240</name>
+    <type>Running</type>
+    <trkseg>
+    <trkpt lat="41.127995" lon="16.8717331">
+        <ele>10.2</ele>
+    </trkpt>
+    <trkpt lat="41.1283668" lon="16.8714273">
+        <ele>10.6</ele>
+    </trkpt>
+    <trkpt lat="41.1287627" lon="16.8715078">
+        <ele>10.7</ele>
+    </trkpt>
+    <trkpt lat="41.1293608" lon="16.871261">
+        <ele>10.9</ele>
+    </trkpt>
+    <trkpt lat="41.1296194" lon="16.8709874">
+        <ele>11.9</ele>
+    </trkpt>
+    <trkpt lat="41.1300517" lon="16.8706816">
+        <ele>12.4</ele>
+    </trkpt>
+    <trkpt lat="41.130476" lon="16.8706226">
+        <ele>10.5</ele>
+    </trkpt>
+    <trkpt lat="41.1305527" lon="16.8700218">
+        <ele>10.3</ele>
+    </trkpt>
+    <trkpt lat="41.1305689" lon="16.8697375">
+        <ele>10.2</ele>
+    </trkpt>
+    <trkpt lat="41.1306174" lon="16.8694854">
+        <ele>10.2</ele>
+    </trkpt>
+    <trkpt lat="41.1307386" lon="16.8694907">
+        <ele>10.2</ele>
+    </trkpt>
+    <trkpt lat="41.1307911" lon="16.8694103">
+        <ele>10.2</ele>
+    </trkpt>
+    <trkpt lat="41.1308639" lon="16.8691742">
+        <ele>9.4</ele>
+    </trkpt>
+    <trkpt lat="41.1309649" lon="16.869083">
+        <ele>8.5</ele>
+    </trkpt>
+    <trkpt lat="41.1309123" lon="16.8689704">
+        <ele>6.5</ele>
+    </trkpt>
+    <trkpt lat="41.13088" lon="16.8687719">
+        <ele>5.3</ele>
+    </trkpt>
+    <trkpt lat="41.1308639" lon="16.8686056">
+        <ele>5.3</ele>
+    </trkpt>
+    <trkpt lat="41.1306174" lon="16.8685681">
+        <ele>5.3</ele>
+    </trkpt>
+    <trkpt lat="41.1305931" lon="16.8688309">
+        <ele>5.3</ele>
+    </trkpt>
+    <trkpt lat="41.1305325" lon="16.8688738">
+        <ele>5.4</ele>
+    </trkpt>
+    <trkpt lat="41.1305164" lon="16.8693942">
+        <ele>10.2</ele>
+    </trkpt>
+    <trkpt lat="41.1303386" lon="16.8696463">
+        <ele>10.4</ele>
+    </trkpt>
+    <trkpt lat="41.1301285" lon="16.8693244">
+        <ele>11.0</ele>
+    </trkpt>
+    <trkpt lat="41.1299669" lon="16.8693137">
+        <ele>11.0</ele>
+    </trkpt>
+    <trkpt lat="41.1297042" lon="16.8692976">
+        <ele>11.0</ele>
+    </trkpt>
+    <trkpt lat="41.1295224" lon="16.8692333">
+        <ele>11.4</ele>
+    </trkpt>
+    <trkpt lat="41.129183" lon="16.8691152">
+        <ele>11.2</ele>
+    </trkpt>
+    <trkpt lat="41.1290173" lon="16.8690455">
+        <ele>10.7</ele>
+    </trkpt>
+    <trkpt lat="41.1287668" lon="16.8689597">
+        <ele>11.0</ele>
+    </trkpt>
+    <trkpt lat="41.1285607" lon="16.8686163">
+        <ele>11.6</ele>
+    </trkpt>
+    <trkpt lat="41.1284759" lon="16.8683267">
+        <ele>11.6</ele>
+    </trkpt>
+    <trkpt lat="41.1284637" lon="16.8678224">
+        <ele>10.8</ele>
+    </trkpt>
+    <trkpt lat="41.1281162" lon="16.8673503">
+        <ele>8.0</ele>
+    </trkpt>
+    <trkpt lat="41.1278091" lon="16.8673396">
+        <ele>11.0</ele>
+    </trkpt>
+    </trkseg>
+</trk>
+</gpx>

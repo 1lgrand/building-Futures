@@ -54,7 +54,7 @@ function setupMap(position) {
 //Parse GPX to JSON
 const renderMap = (map) => {
   let gpx = new gpxParser();
-  fetch("./static/gpx/percorsoBari.gpx")
+  fetch(document.querySelector("#map").dataset.gpx)
     .then((response) => response.text())
     .then((data) => gpx.parse(data))
     .then((g) => gpx.toGeoJSON())
@@ -87,8 +87,8 @@ const renderMap = (map) => {
             },
           });
 
-          /*
           //Add START/END markers on map
+          /*
           new mapboxgl.Marker({ color: "red" })
             .setLngLat(coordinates[0])
             .addTo(map);
@@ -98,6 +98,7 @@ const renderMap = (map) => {
             .addTo(map);
 
           */
+
           //Add waypoints on map
           json.waypoints.forEach((waypoint) => {
             console.log(waypoint);
@@ -113,7 +114,7 @@ const renderMap = (map) => {
               popup.setHTML(`
                         ${
                           waypoint.properties.cmt
-                            ? `<a href="${waypoint.properties.cmt}" target="_blank"><h2>${waypoint.properties.name}</h2></a>`
+                            ? `<a href="${waypoint.properties.cmt}"><h2>${waypoint.properties.name}</h2></a>`
                             : `<h2>${waypoint.properties.name}</h2>`
                         }
                         <p>${waypoint.properties.desc}</p>
@@ -141,7 +142,7 @@ const renderMap = (map) => {
     //Move map to bounds
     .then((bounds) => {
       map.fitBounds(bounds, {
-        padding: 20,
+        padding: 70,
       });
     });
 };

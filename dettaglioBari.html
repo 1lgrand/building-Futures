@@ -24,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,400;8..144,700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet" />
     
 
     <title>Pagina di dettaglio</title>
@@ -60,16 +60,14 @@
 
       <h1 id="titolo">BARI VECCHIA</h1>
 
-    <div id="map">
+    <div id="map" data-gpx="/static/gpx/0516093941-88240.gpx">
         
       </div>
       <script src="./static/js/GPXParser.js"></script>
     <script src="./static/js/rendermap.js"></script>
       
 <hr>
-<br>
-
-      <div id="container">
+      <div id="container" style="padding-bottom: 300px;">
 
         <div id="txtContainer">
           <p class="text">Il centro storico di Bari più comunemente chiamato “Bari Vecchia” rappresenta una piacevole scoperta sia per i turisti sia per gli abitanti del posto che vivono in altri quartieri.
@@ -81,9 +79,24 @@
 
         
 
-        <div style="background: rgba(165, 165, 165, 0.5);" class="cards">
+       
+        <div style="background: rgba(51, 101, 138, 0.5);" class="cards" id="testaditurco">
           <div  class="cardIntestazione">
             <h1>Pin1</h1>
+            <img src="static/images/pin-svg.svg">
+            <img src="static/images/arrowPin.svg" alt="" srcset="">
+            <h1>La testa del turco </h1>
+          </div>
+          
+          <div class="sottoIntestazione">
+            <p id="testoCard">Una torbida leggenda risalente alla dominazione ottomana della città di Bari.</p>
+            <a href="static/images/vaiA_pics/santascolastica.jpg" target="_blank"><button class="customBtn" style="background-color: white; margin-left: 30px;" value="ciao">Vai a <img src="static/images/Pagina di dettaglio_files/iconPinBtn.png" > </button></a>    
+          </div>       
+        </div>
+
+        <div style="background: rgba(165, 165, 165, 0.5);" class="cards" id="sannicola">
+          <div  class="cardIntestazione">
+            <h1>Pin2</h1>
             <img src="static/images/pin-svg.svg">
             <img src="static/images/arrowPin.svg" alt="" srcset="">
             <h1>Basilica di San Nicola</h1>
@@ -91,27 +104,28 @@
           
           <div class="sottoIntestazione">
             <p id="testoCard">La Basilica che custodisce le reliquie di S. Nicola si erge imponente nella Città Vecchia di Bari, a cinque minuti dal Porto marittimo e a 15 minuti dalla Stazione ferroviaria. Lo stile è il romanico, vale a dire che ha un aspetto massiccio e sobrio, caratteristico dell’architettura normanna.</p>
-            <a href="static/images/vaiA_pics/basilicaPic.jpg" target="_blank"><button class="btn" style="background-color: white; margin-left: 30px;" value="ciao">Vai a <img src="static/images/Pagina di dettaglio_files/iconPinBtn.png" > </button></a>    
+            <a href="static/images/vaiA_pics/basilicaPic.jpg" target="_blank"><button class="customBtn" style="background-color: white; margin-left: 30px;" value="ciao">Vai a <img src="static/images/Pagina di dettaglio_files/iconPinBtn.png" > </button></a>    
           </div>       
         </div>
 
-        <div style="background: rgba(51, 101, 138, 0.5);" class="cards">
+
+        <div style="background: rgba(51, 101, 138, 0.5);" class="cards" id="cattedrale">
           <div  class="cardIntestazione">
-            <h1>Pin2</h1>
+            <h1>Pin3</h1>
             <img src="static/images/pin-svg.svg">
             <img src="static/images/arrowPin.svg" alt="" srcset="">
-            <h1>Museo di Santa Scolastica </h1>
+            <h1>Cattedrale di san Sabino</h1>
           </div>
           
           <div class="sottoIntestazione">
-            <p id="testoCard">Il Museo di Bari si trova sulla punta estrema della penisola della città vecchia, lì dove sono stati ritrovate le tracce dei primi insediamenti rupestri dell’età del bronzo e dove oggi vi è l’antico Monastero di Santa Scolastica ed il convento di San Pietro.</p>
-            <a href="static/images/vaiA_pics/santascolastica.jpg" target="_blank"><button class="btn" style="background-color: white; margin-left: 30px;" value="ciao">Vai a <img src="static/images/Pagina di dettaglio_files/iconPinBtn.png" > </button></a>    
+            <p id="testoCard">Il duomo di Bari, il cui nome ufficiale è Basilica cattedrale metropolitana di San Sabino, è la cattedrale di Bari, in Puglia, sede vescovile dell'arcidiocesi cattolica di Bari-Bitonto.</p>
+            <a href="static/images/vaiA_pics/muraglia.jpg" target="_blank"><button class="customBtn" style="background-color: white; margin-left: 30px;" value="ciao">Vai a <img src="static/images/Pagina di dettaglio_files/iconPinBtn.png" > </button></a>    
           </div>       
         </div>
 
-        <div style="background: rgba(51, 101, 138, 0.5);" class="cards">
+        <div style="background: rgba(51, 101, 138, 0.5);" class="cards" id="castello">
           <div  class="cardIntestazione">
-            <h1>Pin3</h1>
+            <h1>Pin4</h1>
             <img src="static/images/pin-svg.svg">
             <img src="static/images/arrowPin.svg" alt="" srcset="">
             <h1>Castello Svevo di Bari</h1>
@@ -120,22 +134,22 @@
           <div class="sottoIntestazione">
             <p id="testoCard">Il Castello Svevo è un luogo simbolo della città di Bari, si trova a ridosso della città vecchia e come fortezza costituisce parte della cinta muraria che fortificava l’intero perimetro.
 La sua prima costruzione fu voluta in epoca medioevale da Ruggiero II e risale al 1133.</p>
-          <a href="static/images/vaiA_pics/svevo.jpg" target="_blank"><button class="btn" style="background-color: white; margin-left: 30px;" value="ciao">Vai a <img src="static/images/Pagina di dettaglio_files/iconPinBtn.png" > </button></a>    
+          <a href="static/images/vaiA_pics/svevo.jpg" target="_blank"><button class="customBtn" style="background-color: white; margin-left: 30px;" value="ciao">Vai a <img src="static/images/Pagina di dettaglio_files/iconPinBtn.png" > </button></a>    
 </div>       
         </div>
 
-        <div style="background: rgba(51, 101, 138, 0.5);" class="cards">
+        <div style="background: rgba(51, 101, 138, 0.5);" class="cards" id="maria">
           <div  class="cardIntestazione">
-            <h1>Pin4</h1>
+            <h1>Pin5</h1>
             <img src="static/images/pin-svg.svg">
             <img src="static/images/arrowPin.svg" alt="" srcset="">
-            <h1>La Muraglia</h1>
+            <h1>Maria delle sgagliozze</h1>
           </div>
           
           <div class="sottoIntestazione">
-            <p id="testoCard">La Muraglia di Bari è un punto di interesse storico di Bari vecchia e l’unico punto panoramico nello scenario pianeggiante tutto intorno. Dalla terrazza del fortino di Sant’Antonio si può ammirare nel suo insieme il Teatro Margherita che ha le sue fondamenta sull’acqua a ridosso dell’antico porto, il lungomare con la sequenza di palazzi istituzionali, il nuovo porto commerciale dove approdano traghetti, navi mercantili e navi da crociera.</p>
-            <a href="static/images/vaiA_pics/muraglia.jpg" target="_blank"><button class="btn" style="background-color: white; margin-left: 30px;" value="ciao">Vai a <img src="static/images/Pagina di dettaglio_files/iconPinBtn.png" > </button></a>    
-          </div>       
+            <p id="testoCard">Facendo tappa a Bari impossibile non assaggiare i pezzi di polenta fritti, detti "sgagliozze". Croccanti e salate al punto giusto, ottime per uno spuntino o da gustare a passeggio per Bari Vecchia. Con 1 euro avrete un sacchetto con 6 sgagliozze.</p>
+          <a href="http://www.viaggioanimamente.it/wp-content/uploads/2017/03/bari-signora-maria.jpg" target="_blank"><button class="customBtn" style="background-color: white; margin-left: 30px;" value="ciao">Vai a <img src="static/images/Pagina di dettaglio_files/iconPinBtn.png" > </button></a>    
+</div>       
         </div>
 
       </div>        
