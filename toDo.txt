@@ -1,3 +1,0 @@
-1. Alcuni problemi su mobile per i bottoni delle cards all'interno degli html "dettaglioAlberoBello" e "dettaglioBari".
-2. Grandezza dei font della nav bar quando si cambia pagina dalla homepage.
-3. Manca la mappa di Alberbello.
