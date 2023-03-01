@@ -1,1 +1,0 @@
-1. Alcuni problemi su mobile per i bottoni delle cards all'interno degli html "dettaglioAlberoBello" e "dettaglioBari".

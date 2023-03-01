@@ -95,6 +95,10 @@
     padding-bottom: 20px;
 }
 
+.mapboxgl-control-container{
+    visibility: hidden;
+}
+
 /*Id della mappa gps da aggiungere*/
 #map{
     width: 100%;
