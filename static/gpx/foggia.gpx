@@ -11,49 +11,49 @@
     <ele>74.6</ele>
     <name>Piazza Cavour</name>
     <desc>Partiamo da qui!</desc>
-    <cmt>/dettaglioFoggia.html#pin-1</cmt>
+    <cmt>#pin-1</cmt>
 </wpt>
 <wpt lat="41.465254867475124" lon="15.544961735990322">
     <ele>75.1</ele>
     <name>Palazzo di Federico II</name>
     <desc>Clicca qui per andare alla descrizione</desc>
-    <cmt>/dettaglioFoggia.html#pin-5</cmt>
+    <cmt>#pin-5</cmt>
 </wpt>
 <wpt lat="41.46595979738871" lon="15.545735552128967">
     <ele>73.3</ele>
     <name>Chiesa di San Giovanni Battista</name>
     <desc>Clicca qui per andare alla descrizione</desc>
-    <cmt>/dettaglioFoggia.html#pin-2</cmt>
+    <cmt>#pin-2</cmt>
 </wpt>
 <wpt lat="41.46590579093256" lon="15.543964120086034">
     <ele>75.4</ele>
     <name>Chiesa delle Croci</name>
     <desc>Clicca qui per andare alla descrizione</desc>
-    <cmt>/dettaglioFoggia.html#pin-3</cmt>
+    <cmt>#pin-3</cmt>
 </wpt>
 <wpt lat="41.465635757976976" lon="15.543933774355107">
     <ele>76.0</ele>
     <name>Epitaffio</name>
     <desc>Clicca qui per andare alla descrizione</desc>
-    <cmt>/dettaglioFoggia.html#pin-4</cmt>
+    <cmt>#pin-4</cmt>
 </wpt>
 <wpt lat="41.46462383500324" lon="15.5452651932996">
     <ele>73.3</ele>
     <name>Chiesa dei Morti</name>
     <desc>Clicca qui per andare alla descrizione</desc>
-    <cmt>/dettaglioFoggia.html#pin-6</cmt>
+    <cmt>#pin-6</cmt>
 </wpt>
 <wpt lat="41.46402690674246" lon="15.546065561952796">
     <ele>79.3</ele>
     <name>Teatro Umberto Giordano</name>
     <desc>Clicca qui per andare alla descrizione</desc>
-    <cmt>/dettaglioFoggia.html#pin-7</cmt>
+    <cmt>#pin-7</cmt>
 </wpt>
 <wpt lat="41.46352905561197" lon="15.544238090515138">
     <ele>82.0</ele>
     <name>Cattedrale di Foggia</name>
     <desc>Clicca qui per andare alla descrizione</desc>
-    <cmt>/dettaglioFoggia.html#pin-8</cmt>
+    <cmt>#pin-8</cmt>
 </wpt>
 <trk>
     <name>new</name>

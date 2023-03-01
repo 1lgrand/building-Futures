@@ -17,31 +17,31 @@
     <ele>10.5</ele>
     <name>3 - Basilica di San Nicola</name>
     <desc>Clicca per andare alla descrizione</desc>
-    <cmt>/dettaglioBari.html#sannicola</cmt>
+    <cmt>#sannicola</cmt>
 </wpt>
 <wpt lat="41.1309649" lon="16.8690938">
     <ele>8.6</ele>
     <name>2 - La testa del Turco</name>
     <desc>Clicca per andare alla card descrittiva</desc>
-    <cmt>/dettaglioBari.html#testaditurco</cmt>
+    <cmt>#testaditurco</cmt>
 </wpt>
 <wpt lat="41.1285526" lon="16.8685842">
     <ele>11.6</ele>
     <name>4 - Cattedrale di San Sabino</name>
     <desc>Clicca per andare alla card descrittiva</desc>
-    <cmt>/dettaglioBari.html#cattedrale</cmt>
+    <cmt>#cattedrale</cmt>
 </wpt>
 <wpt lat="41.12809" lon="16.8673155">
     <ele>8.3</ele>
     <name>5 - Cartello Normanno Svevo</name>
     <desc>Clicca per andare alla card descrittiva</desc>
-    <cmt>/dettaglioBari.html#castello</cmt>
+    <cmt>#castello</cmt>
 </wpt>
 <wpt lat="41.1277768" lon="16.8673906">
     <ele>11.0</ele>
     <name>6 - Maria delle Sgagliozze</name>
     <desc>Clicca per andare alla card descrittiva</desc>
-    <cmt>/dettaglioBari.html#maria</cmt>
+    <cmt>#maria</cmt>
 </wpt>
 <trk>
     <name>0516093941-88240</name>
